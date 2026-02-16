@@ -150,7 +150,7 @@ btn.style.display = "none"
 const memories = [
 {
 img:"foto-1.jpg",
-text:"Hari biasa… tapi terasa spesial karena ada kamu."
+text:"Ini first date kitahh😍"
 },
 {
 img:"foto-2.jpg",
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
