@@ -324,3 +324,27 @@ font-weight:500;
 font-weight:500;
 }
 
+/* MODE MOBILE ONLY */
+@media (min-width: 768px){
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+background:#111;
+}
+
+.app{
+display:none;
+}
+
+body::before{
+content:"Website ini khusus dibuka di HP sayang 💛";
+color:white;
+font-size:20px;
+text-align:center;
+padding:40px;
+}
+}
+
+
+
