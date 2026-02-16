@@ -197,6 +197,9 @@ function startMusicOnce(){
 /* mulai saat pertama kali user interaksi */
 document.addEventListener("click", startMusicOnce)
 document.addEventListener("touchstart", startMusicOnce)
+const music = document.getElementById("bgMusic")
+music.volume = 0.6
+
 
 
 
