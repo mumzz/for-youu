@@ -274,7 +274,7 @@ z-index:10;
 }
 .nav{
 position:absolute;
-bottom:15px;
+bottom:120px;
 left:0;
 width:100%;
 display:flex;
@@ -323,4 +323,5 @@ font-weight:500;
 .story-right{
 font-weight:500;
 }
+
 
