@@ -149,11 +149,11 @@ btn.style.display = "none"
 /* script galeri */
 const memories = [
 {
-img:"1.jpg",
+img:"foto-1.jpg",
 text:"Hari biasa… tapi terasa spesial karena ada kamu."
 },
 {
-img:"2.jpg",
+img:"foto-2.jpg",
 text:"Aku suka cara kamu tertawa tanpa sadar."
 },
 {
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
