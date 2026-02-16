@@ -157,11 +157,11 @@ img:"foto-2.jpg",
 text:"Aku suka cara kamu tertawa tanpa sadar."
 },
 {
-img:"https://picsum.photos/400?3",
+img:"",
 text:"Setiap momen denganmu selalu terasa hangat."
 },
 {
-img:"https://picsum.photos/400?4",
+img:"",
 text:"Aku ga butuh banyak kenangan… cukup kamu."
 }
 ]
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
