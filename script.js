@@ -19,12 +19,16 @@ document.getElementById("storyPage").innerText = (i+1) + " / " + pages.length
 }
 
 function nextPage(){
-if(index<pages.length-1){
-index++
-showPage(index)
+  const music = document.getElementById("bgMusic")
+  if(music && music.paused){
+    music.play().catch(()=>{})
+  }
+  if(index<pages.length-1){
+    index++
+    showPage(index)
+  }
 }
-}
-showPage(index)
+
 
 /* countdown */
 let target=new Date(new Date().getFullYear(), new Date().getMonth(), 17)
@@ -193,6 +197,7 @@ function startMusicOnce(){
 /* mulai saat pertama kali user interaksi */
 document.addEventListener("click", startMusicOnce)
 document.addEventListener("touchstart", startMusicOnce)
+
 
 
 
