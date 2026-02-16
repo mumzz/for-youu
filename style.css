@@ -18,8 +18,7 @@ body{
 min-height:100vh;
 display:flex;
 justify-content:center;
-align-items:flex-start; /* dari center jadi atas */
-padding-top:10px;
+align-items:center;
 background: linear-gradient(-45deg,#fff4b8,#ffe97a,#ffd95a,#fff0a6);
 background-size:400% 400%;
 animation:gradientBG 12s ease infinite;
@@ -35,9 +34,8 @@ overflow:hidden;
 
 .app{
 width:100%;
-max-width:420px;   /* ukuran HP */
-height:100vh;      /* penuh layar HP */
-margin:0 auto;     /* selalu di tengah */
+max-width:420px;
+height:740px;
 position:relative;
 overflow:hidden;
 border-radius:30px;
