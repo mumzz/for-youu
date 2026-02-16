@@ -182,8 +182,18 @@ memoryIndex++
 if(memoryIndex >= memories.length) memoryIndex=0
 renderMemory()
 }
-
 renderMemory()
+
+const music = document.getElementById("bgMusic")
+function startMusicOnce(){
+  music.play().catch(()=>{})
+  document.removeEventListener("click", startMusicOnce)
+  document.removeEventListener("touchstart", startMusicOnce)
+}
+/* mulai saat pertama kali user interaksi */
+document.addEventListener("click", startMusicOnce)
+document.addEventListener("touchstart", startMusicOnce)
+
 
 
 
