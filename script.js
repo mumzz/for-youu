@@ -162,7 +162,7 @@ text:"INI LUCU BANGET KITAAA💕"
 },
 {
 img:"foto-4.jpg",
-text:"Happy Birthday ya sayanggg, semoga panjang uur, sehat selalu, dan didatangkan hal hal baik kedepannyaa, i love youu cantikkkk💋🤞"
+text:"Happy Birthday ya sayanggg, semoga panjang umur, sehat selalu, dan didatangkan hal hal baik kedepannyaa, i love youu cantikkkk💋🤞"
 }
 ]
 
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
