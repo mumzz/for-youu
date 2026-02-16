@@ -157,11 +157,11 @@ img:"foto-2.jpg",
 text:"Aku suka cara kamu tertawa tanpa sadar."
 },
 {
-img:"",
+img:"foto-3.jpg",
 text:"Setiap momen denganmu selalu terasa hangat."
 },
 {
-img:"",
+img:"foto-4.jpg",
 text:"Aku ga butuh banyak kenangan… cukup kamu."
 }
 ]
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
