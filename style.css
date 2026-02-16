@@ -48,7 +48,7 @@ backdrop-filter:blur(20px);
 position:absolute;
 width:100%;
 height:100%;
-top:76;
+top:-76px;
 left:0;
 display:flex;
 justify-content:center;
@@ -133,8 +133,8 @@ transition:all 0.15s ease;
 .nailong-corner{
 position: fixed;
 right: 18px;
-bottom: 120px;
-width: 90px;
+bottom: 80px;
+width: 120px;
 height: auto;
 opacity: 0.9;
 pointer-events: none; /* biar ga ganggu klik tombol */
@@ -323,7 +323,4 @@ font-weight:500;
 .story-right{
 font-weight:500;
 }
-
-
-
 
