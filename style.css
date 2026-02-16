@@ -52,9 +52,10 @@ top:0;
 left:0;
 display:flex;
 justify-content:center;
-align-items:flex-start; /* ini bikin konten mulai dari atas */
-padding:18px 18px 25px;
+align-items:center;
+padding:25px;
 }
+
 
 
 
@@ -346,6 +347,7 @@ text-align:center;
 padding:40px;
 }
 }
+
 
 
 
