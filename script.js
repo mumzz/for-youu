@@ -60,24 +60,36 @@ function blow(){
 }
 
 
-
 /* HADIAH RAHASIA TERBUKA TANGGAL 17 JAM 00:00 */
-function revealGift(){
-let g=document.getElementById("gift")
-if(g && g.classList.contains("hidden")){
-g.classList.remove("hidden")
-g.classList.add("gift-reveal")
-}
-}
 
 function checkGiftTime(){
-let now=new Date()
-let year=now.getFullYear()
-let month=now.getMonth()
-let openTime=new Date(year, month, 17, 0, 0, 0, 0)
-if(now >= openTime){
-revealGift()
-}
+  const now = new Date()
+
+  const openTime = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    17, 0, 0, 0, 0
+  )
+
+  const btn = document.getElementById("openGiftBtn")
+  const text = document.getElementById("giftCountdown")
+
+  if(now >= openTime){
+    text.innerText = "Sekarang kamu boleh membukanya 💛"
+    btn.disabled = false
+  } else {
+    const diff = openTime - now
+
+    const hours = Math.floor(diff / (1000*60*60))
+    const minutes = Math.floor((diff / (1000*60)) % 60)
+    const seconds = Math.floor((diff / 1000) % 60)
+
+    text.innerText =
+      hours + " jam " +
+      minutes + " menit " +
+      seconds + " detik lagi 💛"
+    btn.disabled = true
+  }
 }
 
 checkGiftTime()
@@ -109,32 +121,6 @@ index--
 showPage(index)
 }
 }
-
-/*script countdown hadiah rahasia */ 
-function startGiftCountdown(){
-let target = new Date(Date.now() + 30*1000)
-function update(){
-let now = new Date()
-let diff = target - now
-
-if(diff <= 0){
-document.getElementById("giftCountdown").innerText = "Sekarang kamu boleh membukanya 💗"
-document.getElementById("openGiftBtn").disabled = false
-return
-}
-
-let days = Math.floor(diff / (1000*60*60*24))
-let hours = Math.floor((diff / (1000*60*60)) % 24)
-let minutes = Math.floor((diff / (1000*60)) % 60)
-let seconds = Math.floor((diff / 1000) % 60)
-
-document.getElementById("giftCountdown").innerText =
-days + "h " + hours + "j " + minutes + "m " + seconds + "d Waktu menuju kejutan kecil untuk kamuu sayangkuuuu 💗 ✨"
-}
-update()
-setInterval(update,1000)
-}
-startGiftCountdown()
 
 function openGift(){
 let g = document.getElementById("gift")
@@ -198,6 +184,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
