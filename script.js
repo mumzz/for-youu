@@ -149,11 +149,11 @@ btn.style.display = "none"
 /* script galeri */
 const memories = [
 {
-img:"IMG-20260206-WA0022[1].jpg",
+img:"ourfirst.jpg",
 text:"Hari biasa… tapi terasa spesial karena ada kamu."
 },
 {
-img:"https://picsum.photos/400?2",
+img:"ourfirst.jpg",
 text:"Aku suka cara kamu tertawa tanpa sadar."
 },
 {
@@ -198,5 +198,6 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
