@@ -154,15 +154,15 @@ text:"Ini first date kitahh😍"
 },
 {
 img:"foto-2.jpg",
-text:"Aku suka cara kamu tertawa tanpa sadar."
+text:"Detik detik sebelum film mulayy"
 },
 {
 img:"foto-3.jpg",
-text:"Setiap momen denganmu selalu terasa hangat."
+text:"INI LUCU BANGET KITAAA💕"
 },
 {
 img:"foto-4.jpg",
-text:"Aku ga butuh banyak kenangan… cukup kamu."
+text:"Happy Birthday ya sayanggg, semoga panjang uur, sehat selalu, dan didatangkan hal hal baik kedepannyaa, i love youu cantikkkk💋🤞"
 }
 ]
 
@@ -198,6 +198,7 @@ renderMemory()
 }
 
 renderMemory()
+
 
 
 
