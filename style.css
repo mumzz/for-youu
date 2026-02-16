@@ -52,10 +52,10 @@ top:0;
 left:0;
 display:flex;
 justify-content:center;
-align-items:center;
-padding:25px;
-transition:transform 0.6s ease, opacity 0.6s ease;
+align-items:flex-start;
+padding:90px 25px 25px;
 }
+
 
 .page.active{
 transform:translateX(0) scale(1);
@@ -345,6 +345,7 @@ text-align:center;
 padding:40px;
 }
 }
+
 
 
 
